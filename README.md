@@ -50,3 +50,11 @@ To demonstrate the immediate value of the packed textures, this repository inclu
 2. Drag and drop the package directly into your Unity Project window, or navigate to `Assets > Import Package > Custom Package`.
 3. Apply the imported Material to your mesh. Assign the generated `_Albedo.png` to the Base Color slot and the `_Masks.tga` to the Packed Mask Map slot.
 4. Use the exposed Inspector sliders (Metallic, AO, Emission, Smoothness Intensity) to fine-tune the PBR response dynamically without returning to Photoshop.
+
+<img width="433" height="265" alt="image" src="https://github.com/user-attachments/assets/1b9cd8f4-5a1b-41fd-8732-7afbe7615e4b" />
+
+*Material Inspector demonstrating texture assignments and exposed PBR intensity controls.*
+
+<img width="1044" height="830" alt="image" src="https://github.com/user-attachments/assets/54ba7bc5-365e-43f3-9289-bc28b58c957d" />
+
+*Shader Graph logic for unpacking the generated .tga mask and applying custom multipliers.*
