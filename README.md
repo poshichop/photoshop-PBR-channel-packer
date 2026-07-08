@@ -36,3 +36,13 @@ This script eliminates pipeline friction by allowing 2D and 3D artists to keep t
 2. Run the script via `File > Scripts > Channel Packer`.
 3. Select your target game engine and export directory.
 4. Click **Export**.
+
+## Bonus: Unity Shader Implementation
+
+To demonstrate the immediate value of the packed textures, this repository includes a production-ready Unity Shader Graph asset. It natively unpacks the generated `.tga` mask and provides individual intensity controls for each channel.
+
+**How to use:**
+1. Download `Photoshop_to_URP_PackedShader.unitypackage` from the repository (or Releases page).
+2. Drag and drop the package directly into your Unity Project window, or navigate to `Assets > Import Package > Custom Package`.
+3. Apply the imported Material to your mesh. Assign the generated `_Albedo.png` to the Base Color slot and the `_Masks.tga` to the Packed Mask Map slot.
+4. Use the exposed Inspector sliders (Metallic, AO, Emission, Smoothness Intensity) to fine-tune the PBR response dynamically without returning to Photoshop.
