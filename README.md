@@ -29,7 +29,7 @@ This script eliminates pipeline friction by allowing 2D and 3D artists to keep t
 | **Unity** | Base Color (PNG) | Metallic | Ambient Occlusion | Emission | Smoothness | TGA (24/32-bit) |
 | **Unreal Engine** | Base Color (PNG) | Ambient Occlusion | Roughness (Inv.) | Metallic | Emission | TGA (24/32-bit) |
 
-*Note: The script automatically handles the mathematical inversion required to convert Smoothness to Roughness for Unreal Engine.*
+*Note: the script automatically handles the mathematical inversion required to convert Smoothness to Roughness for Unreal Engine.*
 
 ## Usage
 1. Organize your Photoshop document using the following exact layer group names: `_Color`, `_Metallic`, `_AO`, `_Emission`, `_Smoothness`.
