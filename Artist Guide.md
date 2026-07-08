@@ -13,8 +13,6 @@ To make it all work, the script looks for specific **Layer Groups** in your PSD.
 
 *Note: you do not need to have all of these groups! If your prop doesn't glow, just leave the `_Emission` folder out or leave it empty. The script is smart enough to figure it out and fill the missing data with safe default colors.*
 
-<img width="1216" height="1080" alt="Change" src="https://github.com/user-attachments/assets/b779e220-8a01-4e06-a151-0aec94eb86ee" />
-
 ## How to Export
 
 1. **Check Your Mode** ➖ make sure your document is in RGB mode (`Image > Mode > RGB Color`).
