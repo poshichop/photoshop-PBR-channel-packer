@@ -23,7 +23,7 @@ This script eliminates pipeline friction by allowing 2D and 3D artists to keep t
 3. Restart Photoshop. The script will now be available under `File > Scripts > Channel Packer`.
 
 <img width="1216" height="1080" alt="Change" src="https://github.com/user-attachments/assets/8c616ce1-8ed8-4547-9e57-2cc4ddfbb6f7" />
-*Note: the full overview of the plugin are available on my ArtStation: .*
+*Note: the full overview of the plugin are available on my ArtStation: @poshichop.*
 
 ## Pipeline Output Specifications
 
