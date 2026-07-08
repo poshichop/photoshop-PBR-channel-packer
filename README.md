@@ -22,6 +22,9 @@ This script eliminates pipeline friction by allowing 2D and 3D artists to keep t
    * **macOS:** `/Applications/Adobe Photoshop [Version]/Presets/Scripts/`
 3. Restart Photoshop. The script will now be available under `File > Scripts > Channel Packer`.
 
+<img width="1216" height="1080" alt="Change" src="https://github.com/user-attachments/assets/8c616ce1-8ed8-4547-9e57-2cc4ddfbb6f7" />
+
+
 ## Pipeline Output Specifications
 
 | Target Engine | RGB File (Albedo) | R Channel | G Channel | B Channel | A Channel | Mask File |
